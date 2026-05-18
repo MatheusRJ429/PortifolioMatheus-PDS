@@ -1,0 +1,78 @@
+﻿.pagina-contato {
+    min-height: 100vh;
+    padding: 60px 10%;
+    background: linear-gradient(135deg, #dbeafe, #f1f5f9);
+    font-family: Arial;
+}
+
+.topo-contato {
+    margin-bottom: 50px;
+}
+
+    .topo-contato h1 {
+        font-size: 60px;
+        color: #0f172a;
+        margin-bottom: 15px;
+    }
+
+    .topo-contato p {
+        font-size: 22px;
+        color: #1e293b;
+    }
+
+.container-contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card-contato {
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+}
+
+    .card-contato:hover {
+        transform: translateY(-8px);
+    }
+
+.icone-contato {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.card-contato h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.link-social {
+    color: #334155;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    .link-social:hover {
+        color: #2563eb;
+        text-decoration: underline;
+    }
+
+.botao-home {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 14px 22px;
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+    .botao-home:hover {
+        background-color: #2563eb;
+    }

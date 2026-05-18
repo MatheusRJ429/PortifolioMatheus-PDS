@@ -1,0 +1,31 @@
+﻿.link-curriculo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    .link-curriculo:hover {
+        text-decoration: underline;
+    }
+
+.link-historia {
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    .link-historia:hover {
+        text-decoration: underline;
+    }
+
+.link-contato {
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .link-contato:hover {
+        text-decoration: underline;
+    }
